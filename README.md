@@ -2,7 +2,7 @@
 Este será el repositorio en el que se realizarán las prácticas de Ingeniería del Software
 
 
-**Comandos basicos I**
+**Comandos basicos GIT**
 
 >Iniciar repositorio en un directorio:
 
@@ -24,8 +24,6 @@ Este será el repositorio en el que se realizarán las prácticas de Ingeniería
 
 `git log`
 
-**Comandos básicos II**
-
 >Ayuda del listado anterior:
 
 `git help log`
@@ -45,8 +43,6 @@ Este será el repositorio en el que se realizarán las prácticas de Ingeniería
 >Ver cambios en el directorio:
 
 `git status`
-
-**Comandos básicos III**
 
 >Ver diferencia entre ficheros en el directorio y el repositorio de git:
 
@@ -69,8 +65,6 @@ staging y el repositorio:
 
 `git commit -m "Mensaje"`
 
-**Comandos básicos IV**
-
 >Deshacer cambios con git:
 
 `git checkout -- nombre_fichero`
@@ -91,8 +85,6 @@ staging y el repositorio:
 
 `git revert <id_commit>`
 
-**Comandos básicos V**
-
 >Deshacer multiples cambios en el repositorio:
 
 `git reset --soft <id_commit>`
@@ -112,8 +104,6 @@ staging y el repositorio:
 
 >Ignorar archivos en el repositorio: .gitignore
 
-**Comandos básicos VI**
-
 >Listar el contenido del repositorio de git:
 
 `git ls-tree master`
@@ -131,8 +121,6 @@ staging y el repositorio:
 `git log --oneline -3`
 
 >Para más opciones consultar documentación de git.
-
-**Comandos básicos VII**
 
 >Examinar el contenido de un commit:
 
